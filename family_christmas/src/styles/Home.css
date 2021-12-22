@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+.home {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)), url(../assets/family.jpeg) fixed;
+    min-height: 100vh;
+}
+.message {
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Yuji Hentaigana Akebono', cursive;
+    font-size: 96px;
+    font-weight: bold;
+    text-align: center;
+    width: 50vw;
+    margin: 0;
+    color: white;
+}
+.familypic {
+    display: flex;
+    width: 50vw;
+    margin: 3em;
+    align-items: center;
+}
+.family {
+    width: 90%;
+    transform: rotate(20deg);
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        width: 100%;
+        transform: rotate(90deg);
+        z-index: 1;
+    }
+    75% {
+        width: 60%;
+        transform: rotate(45deg);
+    }
+    to {
+        width: 90%;
+        transform: rotate(20deg);
+    }
+}

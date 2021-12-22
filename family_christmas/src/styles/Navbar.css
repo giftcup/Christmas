@@ -1,0 +1,29 @@
+
+.navbar {
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+    background: #ffffff;
+    background-size: cover;
+    position: sticky;
+    min-height: 100px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    padding: 2em;
+    color: #000000;
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Yuji Hentaigana Akebono', cursive;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .logo {
+    width: 70px;
+    height: 75px;
+  }
+  
+  svg {
+    display: block;
+  }
