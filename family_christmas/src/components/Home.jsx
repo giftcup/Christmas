@@ -2,6 +2,7 @@ import React from "react";
 import Family from "../assets/family.jpeg";
 import "../styles/Home.css";
 function Home() {
+ 
   return (
       <div>
     <div className="home">
